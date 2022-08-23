@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap.min.css}">
+
+    <title>Hello Spring!</title>
+</head>
+<body>
+<!-- 내비게이션 바 -->
+<nav th:replace="navbar :: navbarFragment"></nav>
+<!-- 본문 내용 -->
+<div layout:fragment="content" class="container my-3"></div>
+
+<script th:src="@{/bootstrap.min.js}"></script>
+<th:block layout:fragment="script"></th:block>
+</body>
+</html>
