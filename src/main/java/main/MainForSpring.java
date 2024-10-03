@@ -11,7 +11,6 @@ import config.AppConfImport;
 import spring.*;
 
 
-
 public class MainForSpring {
 
 	private static ApplicationContext ctx = null;
@@ -127,6 +126,7 @@ public class MainForSpring {
 			}
 			printHelp();
 		}
+		
 		
 	}
 

@@ -4,7 +4,9 @@ import java.time.format.DateTimeFormatter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MemberPrinter {
 
 	// 빈이 없으니까 Autowired 안되는게 맞다.
